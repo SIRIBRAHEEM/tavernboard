@@ -1,0 +1,138 @@
+=== BALANCE BEFORE ===
+height: 0
+data: "99997713700ugnot"
+=== RENDER empty ===
+height: 0
+data: # TavernBoard
+
+A community message board on Gno.land. Post a message, cheer the ones you like.
+
+Total messages: 0
+
+No messages yet. Be the first to post.
+
+=== POST 1 ===
+Enter password.
+(0 int)
+
+
+OK!
+GAS WANTED: 4000000
+GAS USED:   2245970
+HEIGHT:     3
+STORAGE DELTA:  1407 bytes
+STORAGE FEE:    140700ugnot
+TOTAL TX COST:  144700ugnot
+EVENTS:     [{"bytes_delta":1407,"fee_delta":{"denom":"ugnot","amount":140700},"pkg_path":"gno.land/r/g1q5ra3080jnhk8skw664lyz9p97t7reddup89rl/tavernboard"}]
+INFO:       
+TX HASH:    T3B1UgP0Qv23QqvH8qjHP0L4F6/YB7ZRW3QxBt/UhMo=
+=== POST 2 ===
+Enter password.
+(1 int)
+
+
+OK!
+GAS WANTED: 4000000
+GAS USED:   2566813
+HEIGHT:     5
+STORAGE DELTA:  1080 bytes
+STORAGE FEE:    108000ugnot
+TOTAL TX COST:  112000ugnot
+EVENTS:     [{"bytes_delta":1080,"fee_delta":{"denom":"ugnot","amount":108000},"pkg_path":"gno.land/r/g1q5ra3080jnhk8skw664lyz9p97t7reddup89rl/tavernboard"}]
+INFO:       
+TX HASH:    gavk9w2xiOLKZqcAOuruWFzlvXmuxwnYs/hYM/S/ddM=
+=== POST 3 ===
+Enter password.
+(2 int)
+
+
+OK!
+GAS WANTED: 4000000
+GAS USED:   2856077
+HEIGHT:     7
+STORAGE DELTA:  1076 bytes
+STORAGE FEE:    107600ugnot
+TOTAL TX COST:  111600ugnot
+EVENTS:     [{"bytes_delta":1076,"fee_delta":{"denom":"ugnot","amount":107600},"pkg_path":"gno.land/r/g1q5ra3080jnhk8skw664lyz9p97t7reddup89rl/tavernboard"}]
+INFO:       
+TX HASH:    pBQJP+ALqh16uzThN33Hf+iExHRtvf70MEZK7mY4/O8=
+=== LIKE message 0 ===
+Enter password.
+(1 int)
+
+
+OK!
+GAS WANTED: 4000000
+GAS USED:   2406415
+HEIGHT:     9
+STORAGE DELTA:  163 bytes
+STORAGE FEE:    16300ugnot
+TOTAL TX COST:  20300ugnot
+EVENTS:     [{"bytes_delta":163,"fee_delta":{"denom":"ugnot","amount":16300},"pkg_path":"gno.land/r/g1q5ra3080jnhk8skw664lyz9p97t7reddup89rl/tavernboard"}]
+INFO:       
+TX HASH:    rGG+LPp09PESFvtycarT2XN50Bkh3N4owK9mY0Qlo/s=
+=== QEVAL MessageCount ===
+height: 0
+data: (3 int)
+=== QEVAL GetMessage(0) ===
+height: 0
+data: ("g1q5ra3080jnhk8skw664lyz9p97t7reddup89rl" string)
+("Welcome to TavernBoard, our community board for the Gnome Tavern Hackathon" string)
+(3 int64)
+(1 int)
+=== QEVAL HasLiked(0, author) ===
+height: 0
+data: (true bool)
+=== RENDER board ===
+height: 0
+data: # TavernBoard
+
+A community message board on Gno.land. Post a message, cheer the ones you like.
+
+Total messages: 3
+
+---
+
+## Message #2
+
+- Author: `g1q5ra30...89rl`
+- Block: 7
+- Cheers: 0
+
+Third round is on the board. Pull up a stool and say hello
+
+---
+
+## Message #1
+
+- Author: `g1q5ra30...89rl`
+- Block: 5
+- Cheers: 0
+
+Built with Gno realms: post a message, cheer the ones you like
+
+---
+
+## Message #0
+
+- Author: `g1q5ra30...89rl`
+- Block: 3
+- Cheers: 1
+
+Welcome to TavernBoard, our community board for the Gnome Tavern Hackathon
+
+=== RENDER single /0 ===
+height: 0
+data: # TavernBoard
+
+## Message #0
+
+- Author: `g1q5ra30...89rl`
+- Block: 3
+- Cheers: 1
+
+Welcome to TavernBoard, our community board for the Gnome Tavern Hackathon
+
+=== BALANCE AFTER ===
+height: 0
+data: "99997325100ugnot"
