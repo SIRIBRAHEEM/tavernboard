@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-night-950 font-body text-parchment-100 antialiased;
+  background-image:
+    radial-gradient(ellipse 80% 50% at 50% -10%, rgba(245, 185, 66, 0.12), transparent),
+    radial-gradient(ellipse 60% 40% at 85% 110%, rgba(54, 62, 115, 0.35), transparent);
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+::selection {
+  background: rgba(245, 185, 66, 0.35);
+  color: #faf6ea;
+}
